@@ -26,7 +26,7 @@ class _ModalBottomSheetScreenState extends State<ModalBottomSheetScreen> {
               height: 5,
             ),
             Text(
-              'Filter by',
+              'Sort by',
               textAlign: TextAlign.left,
               style: TextStyle(fontSize: 18),
             ),
@@ -79,7 +79,7 @@ class _ModalBottomSheetScreenState extends State<ModalBottomSheetScreen> {
                     Navigator.of(context).pop();
                   },
                   child: Text(
-                    'FILTER',
+                    'SORT BY',
                     style: TextStyle(fontWeight: FontWeight.bold),
                   )),
             )
