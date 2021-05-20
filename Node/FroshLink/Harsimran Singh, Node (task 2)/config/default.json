@@ -1,0 +1,4 @@
+{
+    "mongoURI": "Enter your URI",
+    "jwtEnc": "jwtpass"
+}
