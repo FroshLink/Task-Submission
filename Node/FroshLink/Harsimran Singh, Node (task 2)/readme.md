@@ -6,6 +6,7 @@ https://documenter.getpostman.com/view/15044944/TzRa74Vv
 ## Steps to run
 * Clone the repo, install necessary packages
 * Provide mongoURI to config/default.json
+* Open cmd and type ```npm run server```
 
 ## Tasks completed
 * Created an express backend to implement authentication using hashing and store  hashed password and username in MongoDB
