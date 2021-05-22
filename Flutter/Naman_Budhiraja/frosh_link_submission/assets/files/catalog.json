@@ -1,0 +1,67 @@
+{
+	"products":[
+	    {
+	       "id":1,
+	       "image":"assets/phone.jpeg",
+			"image2":"assets/siphone.jpeg",
+	       "name": "Refurbished iPhone 12 Pro Max",
+	       "description":"Storage: 128 GB, Color: Graphite.Condition: Device Device is in pristine condition with minimal signs of use.Screen is in excellent condition with no scratches."
+	    },
+
+	    { 
+	       "id":2,
+	       "image":"assets/tablet.jpeg",
+			"image2":"assets/t2.png",
+	       "name": "Samsung Galaxy Tab A 8.0",
+	       "description":"2GB RAM | 32 GB ROM | Expandable Upto 512 GB.20.31 cm (7.996 inch) Display.8 Megapixels MP Primary Camera.Good Working Condition.1 Year old"
+	    },
+
+	    {
+	       "id": 3,
+	       "image":"assets/laptops.jpg",
+			"image2":"assets/l2.jpeg",
+	       "name": "HP 15s Dual Core 3020e",
+	       "description": "15.6 inch HD WLED Backlit BrightView Micro-edge Display (220 nits Brightness, 45% NTSC Color Gamut, 101 PPI).Medium Working Condition.2 Year old"
+	    },
+
+	    {
+	       "id": 4,
+	       "image": "assets/fitbands.jpeg",
+			"image2":"assets/b2.jpeg",
+	       "name": "MARCRAZY M4 Smart Watch",
+	       "description": "OLED Display.Water Resistant.Good Quality."
+	    },
+
+	    {
+	       "id":5,
+	       "image": "assets/head.jpeg",
+			"image2":"assets/h2.jpeg",
+	       "name": "boAt Rockerz 255F Pro",
+	       "description": "Bluetooth version: 5.0,Battery Time: Upto 6 hours,Fast Charging Technology: Yes,Wireless range: 10 m,Medium Quality"
+	    },
+
+	    {
+	      "id": 6,
+	      "image": "assets/cam.jpeg",
+			"image2":"assets/c2.jpeg",
+	      "name": "Canon PowerShot SX430 IS",
+	      "description": "Effective Pixels: 20 MP,Auto Focus,Display Size: 3 inch,Auto Focus,Medium Quality"
+	    },
+
+		{
+			"id": 7,
+			"image": "assets/st.jpeg",
+			"image2":"assets/tv2.jpeg",
+			"name": "Mi 4A PRO 80 cm ",
+			"description": "Supported Apps: Netflix|Prime Video|Disney+Hotstar|Youtube , Resolution: HD Ready 1366 x 768 Pixels , Refresh Rate: 60 Hz , 2 Year Old , Excellent Condition"
+		},
+
+		{
+			"id": 8,
+			"image": "assets/ref.jpeg",
+			"image2":"assets/refri2.webp",
+			"name": "SAMSUNG 700 L Frost Free Side by Side Refrigerator",
+			"description": "700 L : Good for large families , Digital Inverter Compressor , Frost Free : Auto fridge defrost to stop ice-build up , Good Condition , 6 Months Old"
+		}
+	]
+}
