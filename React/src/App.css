@@ -1,0 +1,11 @@
+.imgUrl {
+    width: 150px !important;
+    height: 150px !important;
+    margin: 30px;
+}
+.card, .center {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
