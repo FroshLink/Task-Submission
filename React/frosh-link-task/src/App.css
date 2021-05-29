@@ -1,0 +1,12 @@
+* {
+  max-width: 100%;
+}
+.bg-1 {
+  background-color: aqua;
+}
+.bg-2 {
+  background-color: blue;
+}
+.bg-3 {
+  background-color: blueviolet;
+}
