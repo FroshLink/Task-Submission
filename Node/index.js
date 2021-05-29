@@ -17,6 +17,9 @@ client.connect((err) => {
   const userCollection = client
     .db(`${process.env.DB_NAME}`)
     .collection("users");
+  const imageCollection = client
+    .db(`${process.env.DB_NAME}`)
+    .collection("images");
   app.post("/registration", async (req, res) => {
     try {
       const hashedPassword = await bcrypt.hash(req.body.password, 10);
@@ -29,6 +32,19 @@ client.connect((err) => {
     } catch {
       res.send("There is an error");
     }
+  });
+
+  app.post("/images", (req, res) => {
+    imageCollection.insertMany(req.body.slice(0, 50)).then((result) => {
+      res.send(result.insertedCount > 0);
+    });
+  });
+  app.get("/imagesTitle", (req, res) => {
+    imageCollection
+      .find({}, { albumId: 0, id: 0, url: 0, thumbnailUrl: 0 })
+      .toArray(err, (documents) => {
+        res.send(documents);
+      });
   });
   app.post("/login", (req, res) => {
     userCollection
